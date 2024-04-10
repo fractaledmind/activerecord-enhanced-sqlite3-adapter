@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [0.6.0] - 2024-04-10
+
+- Use the same busy_handler function as will be in the sqlite3-ruby gem ([@fractaledmind](https://github.com/fractaledmind/activerecord-enhancedsqlite3-adapter/pull/11))
+- Allow for isolated reading and writing connection pools ([@fractaledmind](https://github.com/fractaledmind/activerecord-enhancedsqlite3-adapter/pull/12))
+- Ensure that even Rails 7.0 apps can use insert returning ([@fractaledmind](https://github.com/fractaledmind/activerecord-enhancedsqlite3-adapter/pull/8))
+- Load virtual columns extension only if the app is running 7.1 or less ([@npezza93](https://github.com/fractaledmind/activerecord-enhancedsqlite3-adapter/pull/7))
+
 ## [0.5.0] - 2023-12-24
 
 - Load extensions installed via project-scoped `sqlpkg`
