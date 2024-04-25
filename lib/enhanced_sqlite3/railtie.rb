@@ -40,7 +40,7 @@ module EnhancedSQLite3
           )
 
           # Replace the single production configuration with two separate reader and writer configurations
-          self.configurations = remaining_configs + [reader, writer]
+          self.configurations = remaining_configs + [writer, reader]
         else
           reader = env_configs.find { |config| config.name == "reader" }
           writer = env_configs.find { |config| config.name == "writer" }
