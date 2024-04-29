@@ -3,7 +3,7 @@ PATH
   specs:
     activerecord-enhancedsqlite3-adapter (0.5.0)
       activerecord (>= 7.1)
-      sqlite3 (~> 1.6)
+      sqlite3 (>= 1.6)
 
 GEM
   remote: https://rubygems.org/
