@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.7.0] - 2024-04-29
+
+- Loosen the `sqlite3` dependency to allow for `>= 1.4.0` (including 2.x) ([@fractaledmind](https://github.com/fractaledmind/activerecord-enhancedsqlite3-adapter/pull/15))
+
 ## [0.6.0] - 2024-04-10
 
 - Use the same busy_handler function as will be in the sqlite3-ruby gem ([@fractaledmind](https://github.com/fractaledmind/activerecord-enhancedsqlite3-adapter/pull/11))
