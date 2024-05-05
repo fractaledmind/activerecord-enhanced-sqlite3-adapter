@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.8.0] - 2024-05-05
+
+- Load `sqlpkg` extensions if listed and present ([@fractaledmind](https://github.com/fractaledmind/activerecord-enhancedsqlite3-adapter/pull/17))
+
 ## [0.7.0] - 2024-04-29
 
 - Loosen the `sqlite3` dependency to allow for `>= 1.4.0` (including 2.x) ([@fractaledmind](https://github.com/fractaledmind/activerecord-enhancedsqlite3-adapter/pull/15))
